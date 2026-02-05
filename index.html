@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moltova - AI Agents That Actually Do Things</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .tagline {
+            font-size: 1.4rem;
+            color: #a0a0a0;
+            margin-bottom: 2rem;
+        }
+        .form-container {
+            background: rgba(255,255,255,0.05);
+            padding: 2rem;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+        }
+        .form-container p {
+            margin-bottom: 1.5rem;
+            color: #ccc;
+            line-height: 1.6;
+        }
+        input[type="email"] {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #333;
+            border-radius: 8px;
+            background: #0a0a0a;
+            color: #fff;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        input[type="email"]:focus {
+            outline: none;
+            border-color: #00d4ff;
+        }
+        button {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        button:hover { transform: scale(1.02); }
+        .note {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Moltova</h1>
+        <p class="tagline">AI agents that actually do things.</p>
+        <div class="form-container">
+            <p>Weekly insights on building AI agents that work—automation, integrations, and the future of personal AI.</p>
+            <form action="https://buttondown.email/api/emails/embed-subscribe/moltova" method="post" target="_blank">
+                <input type="email" name="email" placeholder="you@example.com" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <p class="note">No spam. Unsubscribe anytime.</p>
+        </div>
+    </div>
+</body>
+</html>
